@@ -1,14 +1,14 @@
-## 🧠 Emotional Guidance System (AI-Powered)
+# 🧠 Emotional Guidance System (AI-Powered)
 
 An intelligent emotional state detection and guidance system that analyzes user input text along with behavioral signals (sleep, stress, energy, and time of day) to predict emotional state and recommend the most suitable action in real time.
 
-# 🚀 Live Demo
+### 🚀 Live Demo
 
 Try the deployed app here:
 
 https://emotional-guidance-ai.streamlit.app/
 
-# 💡 Project Overview
+### 💡 Project Overview
 
 This project uses Natural Language Processing (NLP) and Machine Learning to:
 
@@ -24,7 +24,7 @@ Provide human-like emotional guidance
 
 The system is designed as a real-world AI assistant demo, not just a model notebook.
 
-# 🧠 What the Model Understands
+### 🧠 What the Model Understands
 
 The model analyzes:
 
@@ -40,7 +40,7 @@ Time of day
 
 These inputs are combined to make smarter predictions than text-only models.
 
-# 🔍 Example Prediction Output
+### 🔍 Example Prediction Output
 
 Emotional State: overwhelmed
 
@@ -52,7 +52,7 @@ Recommended Action: box_breathing
 
 When: now
 
-# 🛠 Tech Stack
+### 🛠 Tech Stack
 
 Language: Python
 
@@ -80,7 +80,7 @@ Streamlit Cloud
 
 GitHub
 
-# 🧪 How to Run Locally
+### 🧪 How to Run Locally
 
 Clone the repository:
 
@@ -95,7 +95,7 @@ Run the app:
 
 streamlit run app.py
 
-# 🎯 Key Features
+### 🎯 Key Features
 
 ✔ Real-time emotional state prediction
 ✔ Confidence-based response system
@@ -104,7 +104,7 @@ streamlit run app.py
 ✔ Clean Streamlit UI
 ✔ Fully deployed ML project
 
-# 📌 Future Improvements
+### 📌 Future Improvements
 
 More emotional classes
 
@@ -116,6 +116,6 @@ Personalized emotional recommendations
 
 Mobile-friendly UI
 
-👩‍💻 Author
+### 👩‍💻 Author
 
 Developed as a complete end-to-end Machine Learning project including training, evaluation, UI development, and deployment.
