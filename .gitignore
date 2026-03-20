@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pkl
+*.joblib
+*.csv
+*.xlsx
+*.png
+*.jpg
+.DS_Store
