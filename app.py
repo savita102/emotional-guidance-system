@@ -9,7 +9,7 @@ from src.uncertainty import compute_uncertainty
 
 st.set_page_config(page_title="ArvyaX AI", layout="centered")
 
-st.title("🧠 ArvyaX Emotional Guidance System")
+st.title("🧠 Emotional Guidance System")
 st.markdown("Understand → Decide → Guide")
 
 # -------------------------
