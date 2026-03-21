@@ -2,6 +2,11 @@ Edge Case Planning – Emotional Guidance System
 
 This document describes how the system is designed to handle unusual, unclear, or difficult user inputs (edge cases).
 
+Confidence & Uncertainty:
+- Each prediction comes with a confidence score (0–1).
+- If the confidence is below a threshold (e.g., 0.6), the system sets `uncertain_flag=1`.
+- Recommendations are conservative when uncertain, e.g., pause_and_breathe, grounding, or light planning.
+
 1. Very Short Inputs
 
 Examples:
