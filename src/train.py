@@ -14,7 +14,7 @@ def train_models(X, df, tfidf, scaler, le):
     y_state = df["emotional_state"]
     y_intensity = df["intensity"]
 
-    model_state = XGBClassifier()
+    model_state = XGBClassifier(max_depth=5, learning_rate=0.05, n_estimators=200)
     model_intensity = XGBRegressor()
 
     model_state.fit(X, y_state)

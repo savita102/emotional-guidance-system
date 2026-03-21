@@ -5,7 +5,7 @@ from scipy.sparse import hstack
 # TRAINING
 def fit_features(df):
     
-    tfidf = TfidfVectorizer(max_features=5000)
+    tfidf = TfidfVectorizer(max_features=5000, min_df=2, ngram_range=(1,2))
     X_text = tfidf.fit_transform(df['journal_text'])
     
     meta_cols = ['sleep_hours', 'stress_level', 'energy_level']
